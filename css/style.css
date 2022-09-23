@@ -43,3 +43,7 @@ body {
 .card .title {
   font-family: "Rubik Dirt", cursive;
 }
+
+.change button {
+  font-family: "Monoton", cursive;
+}

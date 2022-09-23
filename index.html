@@ -10,11 +10,12 @@
 </head>
 <body class="bg-[#6B5FCB]">
     <p class="danger">
-        <span>!!Eslatma!!</span> Lug`atga faqat shu so`zlardan birini kriting: <span>yo`lbars,  sher,  ilon,  ayiq,  qush,  it,  fil,  tulki,  bo`ri,  quyon</span>  <b>Natijada</b> chiqgan rasmni ustiga bossayz o`qilishi eshitildai 
+        <span>!!Eslatma!!</span> Lug`atga faqat shu so`zlardan birini kriting: <span>yo`lbars,  sher,  ilon,  ayiq,  qush,  it,  fil,  tulki,  bo`ri,  quyon</span>  <b>Natijada</b> chiqgan rasmni ustiga bossayz o`qilishi eshitiladi 
     </p>
-    <div class="dictonary__wrapper rounded-md bg-[#6B5FCB] ml-[35%]">
+    <div class="dictonary__wrapper rounded-md bg-[#6B5FCB] pt-[20px] ml-[35%]">
         <div class="input__wrapper w-[100%] bg-[#6B5FCB] h-[90px] rounded-b-lg rounded-t-lg">
-            <input id="searchScreen" type="text" class="w-[90%] h-[40px] mt-[20px] ml-[5%] rounded-[10px] outline-0 indent-2.5 text-[24px]" placeholder="search...">
+            <input id="searchScreen" type="text" class="w-[90%] h-[40px] mt-[0px] ml-[5%] rounded-[10px] outline-0 indent-2.5 text-[24px]" placeholder="search...">
+            <input style="display:none;" id="searchScreenTwo" type="text" class="w-[90%] h-[40px] mt-[0px] ml-[5%] rounded-[10px] outline-0 indent-2.5 text-[24px]" placeholder="search.....">
         </div>
         <div class="dictonary_body w-[100%] h-[80%] mt-[8%]  rounded-md bg-[#6B5FCB]">
             <div id="card" class="card w-[90%] h-[150px] flex justify-between ml-[5%] rounded-md bg-black mb-[50px]">
@@ -44,8 +45,12 @@
                     <img src="img/tiger-head-transparent-11546840998fnuw2ey0l3-removebg-preview.png" alt="" class="w-[100%] h-[100%]">
                 </div>
             </div>
-            
+            <div class="change  mt-[50px] flex justify-center h-[50px] fixed left-[43%]">
+                <button id="changeuz" class="w-[140px] text-[30px]">UZ - EN</button>
+                <button style="display:none;" id="changeen" class="w-[140px] text-[30px]">EN-UZ</button>
+            </div>
         </div>
+        
     </div>
     
 <script src="js/app.js"></script>
