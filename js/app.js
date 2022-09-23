@@ -132,7 +132,7 @@ searchScreen.addEventListener("click",()=>{
                 }
             
             }
-        },5000)
+        },1000)
             
     }
     else{

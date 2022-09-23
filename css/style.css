@@ -7,16 +7,27 @@
 }
 
 body {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: block;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
 }
 
+.danger {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 20px;
+}
+.danger span {
+  color: red;
+}
+.danger span:last-child {
+  color: orange;
+  cursor: copy;
+}
+
 .dictonary__wrapper {
-  margin-top: 60px;
+  margin-top: 50px;
   width: 400px;
   height: 600px;
   -webkit-box-shadow: 50px 50px 100px #2b2651, -50px -50px 100px #ab98ff;

@@ -5,12 +5,25 @@
     box-sizing: border-box;
 }
 body{
-    display: flex;
+    display: block;
     justify-content: center;
    
 }
+.danger{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    span{
+        color: red;
+        &:last-child{
+            color: orange;
+            cursor: copy;
+        }
+    }
+}
+
 .dictonary__wrapper{
-    margin-top: 60px;
+    margin-top: 50px;
     width: 400px;
     height: 600px;
     box-shadow:  50px 50px 100px #2b2651,
