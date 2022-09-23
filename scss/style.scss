@@ -1,0 +1,26 @@
+@import url("../font/style.css");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+   
+}
+.dictonary__wrapper{
+    margin-top: 60px;
+    width: 400px;
+    height: 600px;
+    box-shadow:  50px 50px 100px #2b2651,
+             -50px -50px 100px #ab98ff;
+}
+.card{
+    background: linear-gradient(145deg, #e6e6e6, #ffffff);
+    box-shadow:  12px 12px 36px #ab98ff,
+                 -8px -8px 16px #ab98ff;
+    .title{
+        font-family: 'Rubik Dirt', cursive;
+    }
+}
