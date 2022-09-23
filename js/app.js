@@ -26,9 +26,9 @@ function myFun(){
         setInterval(()=>{
             if(searchScreen.value.length >= 2){
                 cardTwo.style.display = "none";
-                let today=searchScreen.value
+                let soz=searchScreen.value
             
-                switch(today.toLowerCase()){
+                switch(soz.toLowerCase()){
                     case "yo`lbars":
                         card.style.display = "flex"
                         textEl.innerHTML ="Tiger"
